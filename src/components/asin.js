@@ -3,7 +3,16 @@ const countries = [
     'US',
     'CA',
     'MX',
-    'MX',
+    'UK',
+    'FR',
+    'DE',
+    'IT',
+    'ES',
+    'IN',
+    'TR',
+    'JP',
+    'CN',
+    'AU',
 
 ]
 

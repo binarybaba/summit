@@ -1,7 +1,7 @@
 const countries = [
     'NA',
     'EU',
-    'FE',
+    'JP',
 
 ]
 
