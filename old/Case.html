@@ -1,0 +1,184 @@
+<SCRIPT language=JavaScript>
+
+var message = "function disabled";
+
+function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+
+if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+
+document.onmousedown = rtclickcheck;
+
+</SCRIPT>
+<html>
+	<head>
+		<Title> Case IDs </Title>
+	</head>
+	<body>
+		<h1 align="center" style="font-family: Lucida Sans;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: 
+	font-weight: 500;
+	line-height: 26.4px;"> Case IDs <font color="black"></font></h1>
+		<form style="text-align:center">
+			<textarea class="ta10" rows="15" cols="25" id="cids_txt1"></textarea><br/><br/>
+			<style type="text/css">
+.ta10 {
+	background-image:url();
+	background-repeat:no-repeat;
+	border:3px solid #d1c7ac;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: 225px 375px;
+
+	
+	color:#333333;
+	padding:3px;
+	margin-right:2px;
+	margin-bottom:6px;
+	font-family:Lucida Sans;
+	
+}
+</style>
+<style type="text/css">
+.styled-button-9 {
+	background-color:#3AF70A;
+	background: -moz-linear-gradient(top,#3AF70A 0%,#3AF70A 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#3AF70A),color-stop(100%,#3AF70A));
+	background: -webkit-linear-gradient(top,#3AF70A 0%,#3AF70A 100%);
+	background: -o-linear-gradient(top,#3AF70A 0%,#3AF70A 100%);
+	background: -ms-linear-gradient(top,#3AF70A 0%,#3AF70A 100%);
+	background: linear-gradient(top,#3AF70A 0%,#3AF70A 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3AF70A',endColorstr='#3AF70A',GradientType=0);
+	padding:8px 25px;
+	color:#fff;
+	font-family: Lucida Sans;
+	font-size:14px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border:1px solid #7CEE9C
+}                        
+</style>
+<input type="radio" name="Org"     id="NA" value="NA"  checked>NA</input>
+		<input type="radio" name="Org" id="EU" value="EU">EU</input>
+		<input type="radio" name="Org"  id="FE" value="FE">FE</input>
+		<br><br>
+			
+		<input type="button" class="styled-button-9" value="LOAD" onclick='OpenInNewTab2();'>
+		</form> 
+		<script>
+		var c = [];
+		var t=0;
+		var v;
+		function OpenInNewTab2()
+		{
+		
+
+			if(document.getElementById("NA").checked==true)
+			{
+			launch_NA();
+			}
+			else if(document.getElementById("EU").checked==true)
+			{
+			launch_EU();
+			}
+            else if(document.getElementById("FE").checked==true)
+			{
+			launch_FE();
+			}
+						}
+			function launch_NA()
+	{
+var str1=document.getElementById("cids_txt1").value;
+			
+			
+			var res1 = str1.split("\n"); 
+		
+			
+
+				v=0;
+					for (var i=0;i<=res1.length-1;i++)
+					{
+						res1[i]=res1[i].trim();
+
+						if(res1[i]!="")
+						{
+							if(res1[i].indexOf('-') === -1)
+					      {
+						res1[i]="https://paragon-na.amazon.com/hz/view-investigation?caseId="+res1[i];
+						t=v;
+						c[t] = window.open(res1[i]);
+						
+						v=v+1;
+						
+						}
+						
+						}
+						}
+						document.getElementById("cids_txt1").value = "";
+}		
+			function launch_EU()
+	{
+var str1=document.getElementById("cids_txt1").value;
+			
+			
+			var res1 = str1.split("\n"); 
+		
+			
+
+				v=0;
+					for (var i=0;i<=res1.length-1;i++)
+					{
+						res1[i]=res1[i].trim();
+
+						if(res1[i]!="")
+						{
+							if(res1[i].indexOf('-') === -1)
+					      {
+						res1[i]="https://paragon-eu.amazon.com/hz/view-investigation?caseId="+res1[i];
+						t=v;
+						c[t] = window.open(res1[i]);
+						
+						v=v+1;
+						
+						}
+						
+						}
+						}
+						document.getElementById("cids_txt1").value = "";
+}			
+			function launch_FE()
+	{
+var str1=document.getElementById("cids_txt1").value;
+			
+			
+			var res1 = str1.split("\n"); 
+		
+			
+
+				v=0;
+					for (var i=0;i<=res1.length-1;i++)
+					{
+						res1[i]=res1[i].trim();
+
+						if(res1[i]!="")
+						{
+							if(res1[i].indexOf('-') === -1)
+					      {
+						res1[i]="https://paragon-fe.amazon.com/hz/view-investigation?caseId="+res1[i];
+						t=v;
+						c[t] = window.open(res1[i]);
+						
+						v=v+1;
+						
+						}
+						
+						}
+						}
+						document.getElementById("cids_txt1").value = "";
+}			
+		
+</script>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+
+<!doctype html>
+<SCRIPT language=JavaScript>
+
+var message = "function disabled";
+
+function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+
+if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+
+document.onmousedown = rtclickcheck;
+
+</SCRIPT>
+<html>
+<frameset rows="65%,35%">
+	<frameset cols="25%,25%,25%">
+        <frame src="Case.html">
+		<frame src="OID-CID.html">
+		<frame src="ASIN.html">
+        </frameset>
+       
+	<frameset cols="">
+		<frame src="SUMMIT Imp Links.html">
+	</frameset>
+</frameset>
+</html>
