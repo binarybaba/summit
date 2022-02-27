@@ -22,11 +22,14 @@ export const Asin = () => {
             <div>textarea</div>
             <div>
                 {countries.map(countryCode => (
-                    <input />
+                    <div>
+                      <label htmlFor={`asin_${countryCode}`}>{countryCode}</label>
+                      <input id={`asin_${countryCode}`} type="radio" name="asin" value={countryCode} key={countryCode}/>
+                    </div>
                 ))}
             </div>
             </form>
-            
+
         </div>
     )
 }

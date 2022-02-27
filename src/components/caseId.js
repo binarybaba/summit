@@ -5,18 +5,21 @@ const countries = [
 
 ]
 
-export const caseids = () => {
+export const CaseId = () => {
     return (
         <div>
             <form action="">
             <div>textarea</div>
             <div>
                 {countries.map(countryCode => (
-                    <input />
+                  <div>
+                    <label htmlFor={`caseId_${countryCode}`}>{countryCode}</label>
+                    <input id={`caseId_${countryCode}`} type="radio" name="caseId" value={countryCode} key={countryCode}/>
+                  </div>
                 ))}
             </div>
             </form>
-            
+
         </div>
     )
 }

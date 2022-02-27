@@ -1,23 +1,20 @@
 import logo from './logo.svg';
+import { Asin } from './components/asin';
+import { CaseId } from './components/caseId';
+import { OrderId } from './components/orderId';
+import { Links } from './components/links';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <Asin />
+        <CaseId />
+        <OrderId />
+        <Links />
+      </div>
     </div>
   );
 }
