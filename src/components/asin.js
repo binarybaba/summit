@@ -1,7 +1,9 @@
 
 const countries = [
     'US',
-    'CA'
+    'CA',
+    'MX',
+
 ]
 
 export const Asin = () => {
