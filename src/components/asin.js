@@ -13,7 +13,6 @@ const countries = [
     'JP',
     'CN',
     'AU',
-
 ]
 
 export const Asin = () => {
