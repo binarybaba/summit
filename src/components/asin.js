@@ -3,6 +3,7 @@ const countries = [
     'US',
     'CA',
     'MX',
+    'MX',
 
 ]
 
