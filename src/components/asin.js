@@ -1,3 +1,10 @@
+import { Select } from '@rmwc/select';
+import { Typography } from '@rmwc/typography';
+import { TextField } from '@rmwc/textfield';
+import '@rmwc/menu/styles';
+import '@rmwc/select/styles'
+import '@rmwc/typography/styles';
+import '@rmwc/textfield/styles';
 
 const countries = [
     'US',
@@ -18,16 +25,31 @@ const countries = [
 export const Asin = () => {
     return (
         <div>
+          <Typography use="headline3">ASIN</Typography>
             <form action="">
-            <div>textarea</div>
+              <div style={{ margin: '32px 0' }}>
+                <TextField
+                  textarea
+                  outlined
+                  fullwidth /* Junaid switch this to true if y */
+                  label="ASIN Ids seperated in new lines"
+                  rows={8}
+                  characterCount
+                  helpText={{
+                    persistent: true,
+                    validationMsg: true,
+                    children: 'The field is required'
+                  }}
+                />
+              </div>
             <div>
-                {countries.map(countryCode => (
-                    <div>
-                      <label htmlFor={`asin_${countryCode}`}>{countryCode}</label>
-                      <input id={`asin_${countryCode}`} type="radio" name="asin" value={countryCode} key={countryCode}/>
-                    </div>
-                ))}
+              <Select
+                label="Country"
+                options={countries}
+              />
             </div>
+
+
             </form>
 
         </div>

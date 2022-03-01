@@ -13,6 +13,7 @@ export const linkList = [{
 export const Links = () => {
     return (
         <div>
+          <div>Important links</div>
             <ul>
                 {linkList.map(({ name, link }) => (
                     <li key={name}><a href={link}>{name}</a></li>

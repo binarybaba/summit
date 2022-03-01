@@ -8,6 +8,7 @@ const countries = [
 export const CaseId = () => {
     return (
         <div>
+          <div>Case Id</div>
             <form action="">
             <div>textarea</div>
             <div>
