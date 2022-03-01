@@ -7,20 +7,34 @@ const countries = [
 
 export const CaseId = () => {
     return (
+      <div>
+      <Typography use="headline3">Case IDs</Typography>
+        <form action="">
+          <div style={{ margin: '32px 0' }}>
+            <TextField
+              textarea
+              outlined
+              fullwidth /* Junaid switch this to true if y */
+              label="Enter search entries in seperate lines"
+              rows={12}
+              characterCount
+              helpText={{
+                persistent: true,
+                validationMsg: true,
+                children: 'The field is required'
+              }}
+            />
+          </div>
         <div>
-          <div>Case Id</div>
-            <form action="">
-            <div>textarea</div>
-            <div>
-                {countries.map(countryCode => (
-                  <div>
-                    <label htmlFor={`caseId_${countryCode}`}>{countryCode}</label>
-                    <input id={`caseId_${countryCode}`} type="radio" name="caseId" value={countryCode} key={countryCode}/>
-                  </div>
-                ))}
-            </div>
-            </form>
-
+          <Select
+            label="Orgs"
+            options={countries}
+          />
         </div>
+
+
+        </form>
+
+    </div>
     )
 }
