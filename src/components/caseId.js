@@ -1,3 +1,7 @@
+import { Select } from '@rmwc/select';
+import { Typography } from '@rmwc/typography';
+import { TextField } from '@rmwc/textfield';
+
 const countries = [
     'NA',
     'EU',
@@ -8,7 +12,7 @@ const countries = [
 export const CaseId = () => {
     return (
       <div>
-      <Typography use="headline3">Case IDs</Typography>
+      <Typography use="headline4">Case IDs</Typography>
         <form action="">
           <div style={{ margin: '32px 0' }}>
             <TextField
@@ -27,7 +31,7 @@ export const CaseId = () => {
           </div>
         <div>
           <Select
-            label="Orgs"
+            label="Marketplace"
             options={countries}
           />
         </div>

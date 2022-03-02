@@ -1379,6 +1379,21 @@
   dependencies:
     tslib "^1.9.3"
 
+"@material/button@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@material/button/-/button-5.1.0.tgz#22986368ce12faad142ba01c4aeb42f6a380dffb"
+  integrity sha512-umeuIEbeRRd0cY+5axhrBoM0dvJ4YfoTsUbKgz4ctFxHLBsgthFUIXSa3Ot15s284UP6kjslK0LCMqzhirZxeQ==
+  dependencies:
+    "@material/density" "^5.1.0"
+    "@material/elevation" "^5.1.0"
+    "@material/feature-targeting" "^5.1.0"
+    "@material/ripple" "^5.1.0"
+    "@material/rtl" "^5.1.0"
+    "@material/shape" "^5.1.0"
+    "@material/theme" "^5.1.0"
+    "@material/touch-target" "^5.1.0"
+    "@material/typography" "^5.1.0"
+
 "@material/density@^5.1.0":
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/@material/density/-/density-5.1.0.tgz#d36512d413a00595122f98303766dae6b9e9fabe"
@@ -1584,6 +1599,14 @@
   dependencies:
     "@material/feature-targeting" "^5.1.0"
 
+"@material/touch-target@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@material/touch-target/-/touch-target-5.1.0.tgz#0e03ba901acf118c91eb4cfa02034964424565a2"
+  integrity sha512-lR3eoL1D0I/hyEK6I7bMFDBy/pE0yYvjYUZtL1vC7+2i54A4FgQ2hwnpQJVaZQXzrHdj6xsXmODphmUsH5gqPA==
+  dependencies:
+    "@material/base" "^5.1.0"
+    "@material/feature-targeting" "^5.1.0"
+
 "@material/typography@^5.1.0":
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/@material/typography/-/typography-5.1.0.tgz#b346f4139b231f17c84c439a1c7af311c40c5844"
@@ -1640,6 +1663,18 @@
     hyperform "^0.11.0"
     mutation-observer "^1.0.3"
     tslib "^2.3.0"
+
+"@rmwc/button@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@rmwc/button/-/button-7.0.0.tgz#d96bcb56aaf1c8c2d8842d63193bd826dec19cea"
+  integrity sha512-O5AXfHHjq85F5BXHxndTpe5w93sIteX0i4ftxFgWqP0nabqDHYqh4GzB7H9UQ5XLeCgwHqMjA8pMpDgSH/6t3Q==
+  dependencies:
+    "@material/button" "^5.1.0"
+    "@rmwc/base" "^7.0.0"
+    "@rmwc/icon" "^7.0.0"
+    "@rmwc/provider" "^7.0.0"
+    "@rmwc/ripple" "^7.0.0"
+    "@rmwc/types" "^7.0.0"
 
 "@rmwc/drawer@^7.0.0":
   version "7.0.0"
@@ -7270,6 +7305,11 @@ prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
+
+prettier@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
+  integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
 
 pretty-bytes@^5.3.0, pretty-bytes@^5.4.1:
   version "5.6.0"
