@@ -41,7 +41,31 @@ export const generateLoadLink = (org, idArray) => {
       domain = 'https://www.amazon.co.uk/'
       break;
     case 'FR':
-      domain = 'https://www.amazon.com.fr/'
+      domain = 'https://www.amazon.fr/'
+      break;
+      case 'DE':
+      domain = 'https://www.amazon.de/'
+      break;
+      case 'IT':
+      domain = 'https://www.amazon.it/'
+      break;
+      case 'ES':
+      domain = 'https://www.amazon.es/'
+      break;
+      case 'IN':
+      domain = 'https://www.amazon.in/'
+      break;
+      case 'TR':
+      domain = 'https://www.amazon.com.tr/'
+      break;
+      case 'JP':
+      domain = 'https://www.amazon.co.jp/'
+      break;
+      case 'CN':
+      domain = 'https://www.amazon.cn/'
+      break;
+      case 'AU':
+      domain = 'https://www.amazon.com.au/'
       break;
   }
   return idArray.map(id => `${domain}dp/${id}`)
