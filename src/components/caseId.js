@@ -19,44 +19,14 @@ const countries = [
 export const generateLoadLink = (org, idArray) => {
   let domain = ''
   switch (org) {
-    case 'US':
+    case 'NA':
       domain = 'https://www.amazon.com/'
       break;
-    case 'CA':
+    case 'EU':
       domain = 'https://www.amazon.ca/'
       break;
-    case 'MX':
-      domain = 'https://www.amazon.com.mx/'
-      break;
-    case 'UK':
-      domain = 'https://www.amazon.co.uk/'
-      break;
-    case 'FR':
-      domain = 'https://www.amazon.fr/'
-      break;
-    case 'DE':
-      domain = 'https://www.amazon.de/'
-      break;
-    case 'IT':
-      domain = 'https://www.amazon.it/'
-      break;
-    case 'ES':
-      domain = 'https://www.amazon.es/'
-      break;
-    case 'IN':
-      domain = 'https://www.amazon.in/'
-      break;
-    case 'TR':
-      domain = 'https://www.amazon.com.tr/'
-      break;
     case 'JP':
-      domain = 'https://www.amazon.co.jp/'
-      break;
-    case 'CN':
-      domain = 'https://www.amazon.cn/'
-      break;
-    case 'AU':
-      domain = 'https://www.amazon.com.au/'
+      domain = 'https://www.amazon.com.mx/'
       break;
   }
   return idArray.map(id => `${domain}dp/${id}`)
