@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Select } from "@rmwc/select";
-import { Typography } from "@rmwc/typography";
 import { TextField } from "@rmwc/textfield";
 import { Button } from "@rmwc/button";
 import "@rmwc/menu/styles";
