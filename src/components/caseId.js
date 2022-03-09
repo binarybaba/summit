@@ -19,13 +19,13 @@ export const generateLoadLink = (org, idArray) => {
   let domain = ''
   switch (org) {
     case 'NA':
-      domain = 'paragon-na.amazon.com/hz/view-investigation?caseId='
+      domain = 'https://paragon-na.amazon.com/hz/view-investigation?caseId='
       break;
     case 'EU':
-      domain = 'paragon-eu.amazon.com/hz/view-investigation?caseId='
+      domain = 'https://paragon-eu.amazon.com/hz/view-investigation?caseId='
       break;
     case 'JP':
-      domain = 'paragon-fe.amazon.com/hz/view-investigation?caseId='
+      domain = 'https://paragon-fe.amazon.com/hz/view-investigation?caseId='
       break;
     default:
       return ''
