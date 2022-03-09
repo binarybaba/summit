@@ -86,7 +86,7 @@ export const OrderId = () => {
   return (
     <div>
       <form>
-        <div style={{ margin: "32px 0" }}>
+        <div style={{ marginBottom: "10px 0" }}>
           <TextField
             value={ids}
             onChange={(e) => setIds(e.currentTarget.value)}
@@ -97,11 +97,7 @@ export const OrderId = () => {
             label="Enter Seller Ids/OrderIds in separate lines"
             rows={6}
             characterCount
-            helpText={{
-              persistent: true,
-              validationMsg: true,
-              children: "The field is required",
-            }}
+            
           />
         </div>
         <div>
@@ -114,7 +110,7 @@ export const OrderId = () => {
         </div>
         <div
           style={{
-            margin: "32px 0",
+            margin: "18px 0",
             display: "flex",
             justifyContent: "center",
           }}

@@ -97,11 +97,7 @@ export const Asin = () => {
             label="Enter ASINs in separate lines"
             rows={6}
             characterCount
-            helpText={{
-              persistent: true,
-              validationMsg: true,
-              children: "The field is required",
-            }}
+            
           />
         </div>
         <div>
