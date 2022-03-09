@@ -103,6 +103,7 @@ export const OrderId = () => {
         <div>
           <Select
             value={org}
+            enhanced
             onChange={(evt) => setOrg(evt.currentTarget.value)}
             label="Marketplace"
             options={countries.map(({ country }) => country)}
