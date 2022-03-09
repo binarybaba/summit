@@ -33,34 +33,34 @@ export const generateLoadLink = (org, idArray) => {
       domain = "https://paragon-na.amazon.com/hz/view-investigation-lookup";
       break;
     case "CA":
-      domain = "https://www.amazon.ca/";
+      domain = "";
       break;
     case "MX":
-      domain = "https://www.amazon.com.mx/";
+      domain = "";
       break;
     case "UK":
-      domain = "https://www.amazon.co.uk/";
+      domain = "";
       break;
     case "FR":
-      domain = "https://www.amazon.fr/";
+      domain = "";
       break;
     case "DE":
-      domain = "https://www.amazon.de/";
+      domain = "";
       break;
     case "IT":
-      domain = "https://www.amazon.it/";
+      domain = "";
       break;
     case "ES":
-      domain = "https://www.amazon.es/";
+      domain = "";
       break;
     case "IN":
-      domain = "https://www.amazon.in/";
+      domain = "";
       break;
     case "TR":
-      domain = "https://www.amazon.com.tr/";
+      domain = "";
       break;
     case "JP":
-      domain = "https://www.amazon.co.jp/";
+      domain = "";
       break;
   }
   return idArray.map((id) => {
