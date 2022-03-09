@@ -46,7 +46,7 @@ export const CaseId = () => {
     return (
       <div>
         <form>
-          <div style={{ margin: '32px 0' }}>
+          <div style={{ marginTop: "22px", marginBottom: "10px" }}>
             <TextField
               value={ids}
               onChange={(e) => setIds(e.currentTarget.value)}
@@ -63,6 +63,7 @@ export const CaseId = () => {
         <div>
           <Select
             value={org}
+            enhanced
             onChange={(evt) => setOrg(evt.currentTarget.value)}
             label="Marketplace"
             options={countries}
@@ -70,7 +71,7 @@ export const CaseId = () => {
         </div>
           <div
             style={{
-              margin: "32px 0",
+              margin: "18px 0",
               display: "flex",
               justifyContent: "center",
             }}

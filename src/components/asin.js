@@ -86,7 +86,7 @@ export const Asin = () => {
   return (
     <div>
       <form>
-        <div style={{ margin: "32px 0" }}>
+        <div style={{marginTop: "22px", marginBottom: "10px" }}>
           <TextField
             value={ids}
             onChange={(e) => setIds(e.currentTarget.value)}
@@ -103,6 +103,7 @@ export const Asin = () => {
         <div>
           <Select
             value={org}
+            enhanced
             onChange={(evt) => setOrg(evt.currentTarget.value)}
             label="Marketplace"
             options={countries}
@@ -110,7 +111,7 @@ export const Asin = () => {
         </div>
         <div
           style={{
-            margin: "32px 0",
+            margin: "18px 0",
             display: "flex",
             justifyContent: "center",
           }}
