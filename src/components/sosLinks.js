@@ -44,7 +44,7 @@ const linkTable = [
 
 export const SosLinks = () => {
   return (
-    <DataTable style={{ width: 'calc(100vw - 20%)' }}>
+    <DataTable style={{ width: 'calc(100vw - 40px)' }}>
       <DataTableContent>
         <DataTableBody>
           {linkTable.map(row => (
