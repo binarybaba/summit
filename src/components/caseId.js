@@ -40,7 +40,7 @@ export const CaseId = () => {
   const handleLoadClick = (e) => {
     e.preventDefault();
     const idArray = ids.split("\n").filter((possibleId) => possibleId.length);
-    generateLoadLink(org, idArray).forEach(link => window.open(link, '_blank'))
+    generateLoadLink(org, idArray).forEach(link => window.open(link.trim(), '_blank'))
   };
 
     return (
