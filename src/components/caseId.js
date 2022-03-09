@@ -20,13 +20,13 @@ export const generateLoadLink = (org, idArray) => {
   let domain = ''
   switch (org) {
     case 'NA':
-      domain = 'https://paragon-na.amazon.com/hz/view-investigation'
+      domain = 'paragon-na.amazon.com/hz/view-investigation?caseId='
       break;
     case 'EU':
-      domain = 'https://paragon-eu.amazon.com/hz/view-investigation'
+      domain = 'paragon-eu.amazon.com/hz/view-investigation?caseId='
       break;
     case 'JP':
-      domain = 'https://paragon-fe.amazon.com/hz/view-investigation'
+      domain = 'paragon-fe.amazon.com/hz/view-investigation?caseId='
       break;
   }
   return idArray.map(id => `${domain}?caseId=${id}`)
