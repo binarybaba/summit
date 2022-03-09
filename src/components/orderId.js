@@ -86,7 +86,7 @@ export const OrderId = () => {
   return (
     <div>
       <form>
-        <div style={{ marginTop: "10px 0" }}>
+        <div style={{ marginTop: "10px 0", marginBottom: "10px 0" }}>
           <TextField
             value={ids}
             onChange={(e) => setIds(e.currentTarget.value)}
