@@ -16,13 +16,13 @@ function App() {
     <Grid>
       <GridRow>
         <GridCell>
-          <Asin />
-        </GridCell>
-        <GridCell>
           <CaseId />
         </GridCell>
         <GridCell>
           <OrderId />
+        </GridCell>
+        <GridCell>
+          <Asin />
         </GridCell>
       </GridRow>
       <GridRow>
