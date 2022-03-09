@@ -61,6 +61,8 @@ export const generateLoadLink = (org, idArray) => {
     case "JP":
       domain = "";
       break;
+    default:
+      return ''
   }
   return idArray.map((id) => {
     const isOrderId = id.toString().includes("-");

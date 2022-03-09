@@ -66,6 +66,8 @@ export const generateLoadLink = (org, idArray) => {
       case 'AU':
       domain = 'https://www.amazon.com.au/'
       break;
+    default:
+      return ''
   }
   return idArray.map(id => `${domain}dp/${id}`)
 }

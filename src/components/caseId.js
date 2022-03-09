@@ -27,6 +27,8 @@ export const generateLoadLink = (org, idArray) => {
     case 'JP':
       domain = 'paragon-fe.amazon.com/hz/view-investigation?caseId='
       break;
+    default:
+      return ''
   }
   return idArray.map(id => `${domain}?caseId=${id}`)
 }
