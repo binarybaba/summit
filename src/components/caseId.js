@@ -76,7 +76,7 @@ export const CaseId = () => {
               justifyContent: "center",
             }}
           >
-            <Button danger raised onClick={handleLoadClick} label="Launch" raised />
+            <Button onClick={handleLoadClick} label="Launch" danger raised />
           </div>
         </form>
 
