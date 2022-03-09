@@ -84,7 +84,6 @@ export const Asin = () => {
 
   return (
     <div>
-      <Typography use="headline4">ASINs</Typography>
       <form>
         <div style={{ margin: "32px 0" }}>
           <TextField
@@ -94,8 +93,8 @@ export const Asin = () => {
             textarea
             outlined
             fullwidth /* Junaid switch this to true if y */
-            label="Enter search entries in seperate lines"
-            rows={12}
+            label="Enter ASINs in separate lines"
+            rows={6}
             characterCount
             helpText={{
               persistent: true,

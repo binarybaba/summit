@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Select } from "@rmwc/select";
-import { Typography } from "@rmwc/typography";
 import { TextField } from "@rmwc/textfield";
 import { Button } from "@rmwc/button";
 import "@rmwc/menu/styles";
@@ -84,7 +83,6 @@ export const OrderId = () => {
 
   return (
     <div>
-      <Typography use="headline4">Seller IDs / Order IDs</Typography>
       <form>
         <div style={{ margin: "32px 0" }}>
           <TextField
@@ -94,8 +92,8 @@ export const OrderId = () => {
             textarea
             outlined
             fullwidth /* Junaid switch this to true if y */
-            label="Enter search entries in seperate lines"
-            rows={12}
+            label="Enter Seller Ids/OrderIds in separate lines"
+            rows={6}
             characterCount
             helpText={{
               persistent: true,

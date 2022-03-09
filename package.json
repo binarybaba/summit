@@ -4,11 +4,13 @@
   "private": true,
   "dependencies": {
     "@rmwc/button": "^7.0.0",
+    "@rmwc/data-table": "^7.0.3",
     "@rmwc/drawer": "^7.0.0",
     "@rmwc/grid": "^7.0.0",
     "@rmwc/list": "^7.0.0",
     "@rmwc/menu": "^7.0.0",
     "@rmwc/select": "^7.0.0",
+    "@rmwc/tabs": "^7.0.3",
     "@rmwc/textfield": "^7.0.0",
     "@rmwc/typography": "^7.0.0",
     "@testing-library/jest-dom": "^5.16.2",

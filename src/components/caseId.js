@@ -44,7 +44,6 @@ export const CaseId = () => {
 
     return (
       <div>
-      <Typography use="headline4">Case IDs</Typography>
         <form>
           <div style={{ margin: '32px 0' }}>
             <TextField
@@ -54,8 +53,8 @@ export const CaseId = () => {
               textarea
               outlined
               fullwidth /* Junaid switch this to true if y */
-              label="Enter search entries in seperate lines"
-              rows={12}
+              label="Enter Case Ids in separate lines"
+              rows={6}
               characterCount
               helpText={{
                 persistent: true,

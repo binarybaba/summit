@@ -13,24 +13,24 @@ import '@rmwc/list/styles'
 function App() {
 
   return (
-    <div className="App">
-      <Grid>
-        <GridRow>
-          <GridCell>
-            <Asin />
-          </GridCell>
-          <GridCell>
-            <CaseId />
-          </GridCell>
-          <GridCell>
-            <OrderId />
-          </GridCell>
-        </GridRow>
-        <GridRow>
+    <Grid>
+      <GridRow>
+        <GridCell>
+          <Asin />
+        </GridCell>
+        <GridCell>
+          <CaseId />
+        </GridCell>
+        <GridCell>
+          <OrderId />
+        </GridCell>
+      </GridRow>
+      <GridRow>
+        <GridCell>
           <Links />
-        </GridRow>
-      </Grid>
-      </div>
+        </GridCell>
+      </GridRow>
+    </Grid>
   );
 }
 
