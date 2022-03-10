@@ -75,7 +75,10 @@ const linkTable = [
 [
   { name: "Wisconsin", link: "https://sos.wi.gov/" },
   { name: "Wyoming", link: "https://sos.wyo.gov/" },
-  { name: "That's all folks!", link: "" },
+  { name: "Name", link: "XXXXXXXX" },
+  { name: "Name", link: "XXXXXXXX" },
+  { name: "Name", link: "XXXXXXXX" },
+  { name: "Name", link: "XXXXXXXX" },
 ];
 
 export const SosLinks = () => {
