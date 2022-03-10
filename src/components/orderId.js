@@ -59,7 +59,7 @@ export const generateLoadLink = (org, idArray) => {
       domain = "https://paragon-eu.amazon.com/hz/view-investigation-lookup";
       break;
     case "JP":
-      domain = "https://paragon-eu.amazon.com/hz/view-investigation-lookup";
+      domain = "https://paragon-fe.amazon.com/hz/view-investigation-lookup";
       break;
     default:
       return ''
