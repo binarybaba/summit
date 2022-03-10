@@ -51,7 +51,7 @@ export const OtherLinks = () => {
             <DataTableRow>
               {row.map(({ name, link }) => (
                 <DataTableCell>
-                  <Button danger outlined onClick={() => window.open(link, "_blank")}>{name}</Button>
+                  <Button onClick={() => window.open(link, "_blank")}>{name}</Button>
                 </DataTableCell>
               ))}
             </DataTableRow>
