@@ -39,7 +39,6 @@ const linkTable = [
     { name: "To be updated", link: "XXXXXXXXXXX" },
     { name: "To be updated", link: "XXXXXXXXXXX" },
     { name: "To be updated", link: "XXXXXXXXXXX" },
-    { name: "To be updated", link: "XXXXXXXXXXX" },
   ],
 ];
 
