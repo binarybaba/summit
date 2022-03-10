@@ -25,8 +25,7 @@ const linkTable = [
     { name: "Georgia", link: "https://ecorp.sos.ga.gov/BusinessSearch" },
     { name: "Hawaii", link: "https://hbe.ehawaii.gov/documents/search.html" },
     { name: "Idaho", link: "https://sosbiz.idaho.gov/search/business" },
-    { name: "Utah", link: "https://secure.utah.gov/bes/" },
-  ],
+    ],
   [
     { name: "Maine", link: "https://icrs.informe.org/nei-sos-icrs/ICRS?MainPage=x" },
     { name: "Maryland", link: "https://egov.maryland.gov/businessexpress/entitysearch" },
@@ -72,6 +71,9 @@ const linkTable = [
     { name: "Wisconsin", link: "https://sos.wi.gov/" },
     { name: "Wyoming", link: "https://sos.wyo.gov/" },
   ],
+  [
+    { name: "Utah", link: "https://secure.utah.gov/bes/" },
+  ]
 ];
   
 export const SosLinks = () => {
