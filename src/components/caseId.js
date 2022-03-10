@@ -54,7 +54,7 @@ export const CaseId = () => {
               textarea
               outlined
               fullwidth /* Junaid switch this to true if y */
-              label="Enter Case Ids in separate lines"
+              label="Enter Case IDs in separate lines"
               rows={6}
               characterCount
              

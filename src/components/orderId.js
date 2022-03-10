@@ -94,7 +94,7 @@ export const OrderId = () => {
             textarea
             outlined
             fullwidth /* Junaid switch this to true if y */
-            label="Enter Seller Ids/OrderIds in separate lines"
+            label="Enter Seller IDs / Order IDs in separate lines"
             rows={6}
             characterCount
             
