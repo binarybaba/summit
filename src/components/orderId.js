@@ -11,15 +11,15 @@ import "@rmwc/button/styles";
 const countries = [
   { country: "US", encryptedMarketplaceId: "ATVPDKIKX0DER" },
   { country: "CA", encryptedMarketplaceId: "A2EUQ1WTGCTBG2" },
-  { country: "MX", encryptedMarketplaceId: "" },
-  { country: "UK", encryptedMarketplaceId: "" },
-  { country: "FR", encryptedMarketplaceId: "" },
-  { country: "DE", encryptedMarketplaceId: "" },
-  { country: "IT", encryptedMarketplaceId: "" },
-  { country: "ES", encryptedMarketplaceId: "" },
-  { country: "IN", encryptedMarketplaceId: "" },
-  { country: "TR", encryptedMarketplaceId: "" },
-  { country: "JP", encryptedMarketplaceId: "" },
+  { country: "MX", encryptedMarketplaceId: "A1AM78C64UM0Y8" },
+  { country: "UK", encryptedMarketplaceId: "A1F83G8C2ARO7P" },
+  { country: "FR", encryptedMarketplaceId: "A13V1IB3VIYZZH" },
+  { country: "DE", encryptedMarketplaceId: "A1PA6795UKMFR9" },
+  { country: "IT", encryptedMarketplaceId: "APJ6JRA9NG5V4" },
+  { country: "ES", encryptedMarketplaceId: "A1RKKUPIHCS9HS" },
+  { country: "IN", encryptedMarketplaceId: "A21TJRUUN4KGV" },
+  { country: "TR", encryptedMarketplaceId: "A33AVAJ2PDY3EV" },
+  { country: "JP", encryptedMarketplaceId: "A75P1MG8VMU51" },
 ];
 
 export const generateLoadLink = (org, idArray) => {
@@ -32,34 +32,34 @@ export const generateLoadLink = (org, idArray) => {
       domain = "https://paragon-na.amazon.com/hz/view-investigation-lookup";
       break;
     case "CA":
-      domain = "";
+      domain = "https://paragon-na.amazon.com/hz/view-investigation-lookup";
       break;
     case "MX":
-      domain = "";
+      domain = "https://paragon-na.amazon.com/hz/view-investigation-lookup";
       break;
     case "UK":
-      domain = "";
+      domain = "https://paragon-eu.amazon.com/hz/view-investigation-lookup";
       break;
     case "FR":
-      domain = "";
+      domain = "https://paragon-eu.amazon.com/hz/view-investigation-lookup";
       break;
     case "DE":
-      domain = "";
+      domain = "https://paragon-eu.amazon.com/hz/view-investigation-lookup";
       break;
     case "IT":
-      domain = "";
+      domain = "https://paragon-eu.amazon.com/hz/view-investigation-lookup";
       break;
     case "ES":
-      domain = "";
+      domain = "https://paragon-eu.amazon.com/hz/view-investigation-lookup";
       break;
     case "IN":
-      domain = "";
+      domain = "https://paragon-eu.amazon.com/hz/view-investigation-lookup";
       break;
     case "TR":
-      domain = "";
+      domain = "https://paragon-eu.amazon.com/hz/view-investigation-lookup";
       break;
     case "JP":
-      domain = "";
+      domain = "https://paragon-eu.amazon.com/hz/view-investigation-lookup";
       break;
     default:
       return ''
