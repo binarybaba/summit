@@ -9,8 +9,8 @@ import { Button } from "@rmwc/button";
 
 const linkTable = [
   [
-    { name: "To be updated", link: "XXXXXXXXXXX" },
-    { name: "To be updated", link: "XXXXXXXXXXX" },
+    { name: "Alexa Search", link: "https://www.alexa.com/siteinfo" },
+    { name: "Brand Owner Verification", link: "https://w.amazon.com/bin/view/TRMSCommunityHelp/PQ/PQBrandOwnerVerification/" },
     { name: "To be updated", link: "XXXXXXXXXXX" },
     { name: "To be updated", link: "XXXXXXXXXXX" },
     { name: "To be updated", link: "XXXXXXXXXXX" },

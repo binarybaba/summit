@@ -30,7 +30,7 @@ const linkTable = [
     { name: "GC Explorer JP", link: "https://gchelper-fe.amazon.com/gcexplorer/" },
     { name: "Camshaft FE", link: "https://camweb-jp.amazon.com/" },
     { name: "SUMMIT Quip", link: "https://quip-amazon.com/6QokOYnHPXPP/Team-SUMMIT-Investigative" },
-    { name: "Brand Owner Verification", link: "https://w.amazon.com/bin/view/TRMSCommunityHelp/PQ/PQBrandOwnerVerification/" },
+    { name: "Bulk Merchant Tool", link: "https://paragon-na.amazon.com/hz/investigation-admin-tools" },
    ],
    [ 
     { name: "Seller SIM", link: "https://tiny.amazon.com/ay2nln2q" },
@@ -43,8 +43,6 @@ const linkTable = [
   [
     { name: "AML Insight", link: "https://amlinsight.lexisnexis.com/" },
     { name: "Test Buy", link: "https://share.amazon.com/sites/BADSUMMIT/_layouts/15/WopiFrame2.aspx?sourcedoc=%7b7802A4B7-3C07-44F6-BAB1-1F5752260497%7d&file=SUMMIT%20Test%20Buy%20-%20Council%20Reviewed_CM_Final.docx&action=default" },
-    { name: "Alexa Search", link: "https://www.alexa.com/siteinfo" },
-    { name: "Bulk Merchant Tool", link: "https://paragon-na.amazon.com/hz/investigation-admin-tools" },
     { name: "Suggestions?", link: "https://survey.fieldsense.whs.amazon.dev/survey/preview/8bac67c5-1f06-4a05-a1cf-c92e69290e1d" }
   ],
 ];
