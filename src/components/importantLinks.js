@@ -30,7 +30,7 @@ const linkTable = [
     { name: "GC Explorer JP", link: "https://gchelper-fe.amazon.com/gcexplorer/" },
     { name: "Camshaft FE", link: "https://camweb-jp.amazon.com/" },
     { name: "SUMMIT Quip", link: "https://quip-amazon.com/6QokOYnHPXPP/Team-SUMMIT-Investigative" },
-    { name: "Bulk Merchant Tool NA", link: "https://paragon-na.amazon.com/hz/investigation-admin-tools" },
+    { name: "Wallet Viewer NA", link: "https://wallet-viewer-na.amazon.com/" },
    ],
    [ 
     { name: "Seller SIM", link: "https://tiny.amazon.com/ay2nln2q" },
@@ -38,10 +38,11 @@ const linkTable = [
     { name: "Alchemist", link: "https://paragon-na.amazon.com/hz/ptt" },
     { name: "Image Assist", link: "https://image-assist.amazon.com/" },
     { name: "BAT", link: "https://brandprofile.corp.amazon.com/i/" },
-    { name: "Bulk Merchant Tool JP", link: "https://paragon-fe.amazon.com/hz/investigation-admin-tools" },
+    { name: "Wallet Viewer JP", link: "https://wallet-viewer-fe.amazon.com/" },
   ],
   [
     { name: "AML Insight", link: "https://amlinsight.lexisnexis.com/" },
+    { name: "Ajuda", link: "https://ajuda.a2z.com/view.html?stage=Live&repo=GAEGB78MKKYZXAQ8&hierarchy=GBSV4XKBAUMNZ257&hierLayer=Global&hierLocale=en-US&marketplace=US&locale=en-US&node=G9T4C85L3T3VVSMS" },
     { name: "Test Buy", link: "https://share.amazon.com/sites/BADSUMMIT/_layouts/15/WopiFrame2.aspx?sourcedoc=%7b7802A4B7-3C07-44F6-BAB1-1F5752260497%7d&file=SUMMIT%20Test%20Buy%20-%20Council%20Reviewed_CM_Final.docx&action=default" },
     { name: "BA SIM (Sangeetha)", link: "https://sim.amazon.com/issues/create?template=b26f32fb-b25c-46ae-949a-d96d02628375" },
     { name: "Suggestions?", link: "https://survey.fieldsense.whs.amazon.dev/survey/preview/8bac67c5-1f06-4a05-a1cf-c92e69290e1d" }
