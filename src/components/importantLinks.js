@@ -51,6 +51,7 @@ export const ImportantLinks = () => {
     <DataTable style={{ width: 'calc(100vw - 40px)' }}>
       <DataTableContent>
         <DataTableBody>
+          style={{alignMiddle}}
           {linkTable.map(row => (
             <DataTableRow>
               {row.map(({ name, link }) => (
