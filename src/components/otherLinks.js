@@ -9,7 +9,7 @@ import { Button } from "@rmwc/button";
 
 const linkTable = [
   [
-    { name: "Wayback Machine", link: "https://archive.org/web/" }, 
+    { name: "Wayback Machine", link: "https://archive.org/web/" },
     { name: "IP India", link: "https://ipindiaonline.gov.in/tmrpublicsearch/frmmain.aspx" },
     { name: "WhoIS", link: "https://www.whois.com/" },
     { name: "To be updated", link: "XXXXXXXXXXX" },
@@ -51,7 +51,7 @@ export const OtherLinks = () => {
             <DataTableRow>
               {row.map(({ name, link }) => (
                 <DataTableCell>
-                  <Button outlined onClick={() => window.open(link, "_blank")}>{name}</Button>
+                  <Button outlined onClick={() => window.open(link, "_blank")} className="link-button">{name}</Button>
                 </DataTableCell>
               ))}
             </DataTableRow>

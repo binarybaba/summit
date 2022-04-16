@@ -36,3 +36,28 @@
 /*    transform: rotate(360deg);*/
 /*  }*/
 /*}*/
+
+.tab {
+  text-transform: none;
+    letter-spacing: 0.1px;
+    word-spacing: 1px;
+}
+
+.link-button {
+    width: 220px;
+    text-transform: none;
+    letter-spacing: 0.1px;
+    word-spacing: 1px;
+}
+
+.link-button *,
+.link-button-sos * {
+    color: #3d3d3d;
+}
+
+.link-button-sos {
+    width: 120px;
+    text-transform: none;
+    letter-spacing: 0.1px;
+    word-spacing: 1px;
+}
