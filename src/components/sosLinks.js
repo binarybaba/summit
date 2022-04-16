@@ -7,7 +7,7 @@ import {
 } from "@rmwc/data-table";
 import { Button } from "@rmwc/button";
 
-const linkTable = [
+export const linkTable = [
   [
     { name: "Alabama", link: "http://arc-sos.state.al.us/CGI/CORPNAME.MBR/INPUT" },
     { name: "Alaska", link: "https://www.commerce.alaska.gov/cbp/main/search/entities" },

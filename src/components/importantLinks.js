@@ -5,9 +5,12 @@ import {
   DataTableRow,
   DataTableCell,
 } from "@rmwc/data-table";
+import { List, ListItem} from '@rmwc/list'
 import { Button } from "@rmwc/button";
+import '@rmwc/list/styles';
+import {useEffect, useState} from "react";
 
-const linkTable = [
+export const linkTable = [
   [
     { name: "Paragon NA", link: "https://paragon-na.amazon.com/hz/search" },
     { name: "Nautilus NA", link: "https://nautilus-na.amazon-corp.com/" },
@@ -50,20 +53,48 @@ const linkTable = [
 ];
 
 export const ImportantLinks = () => {
+
+  const [searchKeyword, setSearchKeyword] = useState('')
+  const [isSearching, setIsSearching] = useState(false)
+  const [searchResults, setSearchResults] = useState([])
+
+  useEffect(() => {
+    if(searchKeyword.length) {
+      setSearchResults([].concat(linkTable).reduce((acc, c) => {
+        c.forEach(v => acc.push(v))
+        return acc;
+      }, []).filter(entry => entry.name.toLowerCase().includes(searchKeyword.toLowerCase())))
+    }
+    setIsSearching(!!searchKeyword.length)
+  }, [searchKeyword])
+
   return (
     <DataTable style={{ width: 'calc(100vw - 40px)' }}>
       <DataTableContent>
-        <DataTableBody>
-          {linkTable.map(row => (
-            <DataTableRow>
-              {row.map(({ name, link }) => (
-                <DataTableCell>
-                  <Button outlined onClick={() => window.open(link, "_blank")} className="link-button">{name}</Button>
-                </DataTableCell>
+        <input type="text" placeholder="Type to search..." value={searchKeyword} onChange={(e) => setSearchKeyword(e.currentTarget.value || '')}/>
+        {isSearching ? (
+          <DataTableBody>
+            <List>
+              {searchResults.map(({ name, link }) => (
+                <ListItem onClick={() => window.open(link, "_blank")}>
+                  {name}
+                </ListItem>
               ))}
-            </DataTableRow>
-          ))}
-        </DataTableBody>
+            </List>
+          </DataTableBody>
+        ) : (
+          <DataTableBody>
+            {linkTable.map(row => (
+              <DataTableRow>
+                {row.map(({ name, link }) => (
+                  <DataTableCell>
+                    <Button outlined onClick={() => window.open(link, "_blank")} className="link-button">{name}</Button>
+                  </DataTableCell>
+                ))}
+              </DataTableRow>
+            ))}
+          </DataTableBody>
+        )}
       </DataTableContent>
     </DataTable>
   )
