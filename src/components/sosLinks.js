@@ -75,7 +75,7 @@ const linkTable = [
     { name: "Utah", link: "https://secure.utah.gov/bes/" },
   ]
 ];
-  
+
 export const SosLinks = () => {
   return (
     <DataTable style={{ width: 'calc(100vw - 50px)' }}>
@@ -85,7 +85,7 @@ export const SosLinks = () => {
             <DataTableRow>
               {row.map(({ name, link }) => (
                 <DataTableCell>
-                  <Button onClick={() => window.open(link, "_blank")}>{name}</Button>
+                  <Button onClick={() => window.open(link, "_blank")} className="link-button-sos">{name}</Button>
                 </DataTableCell>
               ))}
             </DataTableRow>

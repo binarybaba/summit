@@ -32,7 +32,7 @@ const linkTable = [
     { name: "SUMMIT Quip", link: "https://quip-amazon.com/6QokOYnHPXPP/Team-SUMMIT-Investigative" },
     { name: "Wallet Viewer NA", link: "https://wallet-viewer-na.amazon.com/" },
    ],
-   [ 
+   [
     { name: "Seller SIM", link: "https://tiny.amazon.com/ay2nln2q" },
     { name: "Buyer SIM", link: "https://tiny.amazon.com/lcuo7fbl" },
     { name: "Alchemist", link: "https://paragon-na.amazon.com/hz/ptt" },
@@ -58,7 +58,7 @@ export const ImportantLinks = () => {
             <DataTableRow>
               {row.map(({ name, link }) => (
                 <DataTableCell>
-                  <Button outlined onClick={() => window.open(link, "_blank")}>{name}</Button>
+                  <Button outlined onClick={() => window.open(link, "_blank")} className="link-button">{name}</Button>
                 </DataTableCell>
               ))}
             </DataTableRow>

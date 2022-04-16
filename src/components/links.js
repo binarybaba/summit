@@ -12,12 +12,12 @@ export const Links = () => {
   return (
     <div>
       <TabBar>
-        <Tab onClick={() => setLinkTable("IMPORTANT_LINKS")}>
+        <Tab onClick={() => setLinkTable("IMPORTANT_LINKS")} className="tab">
           Important Links
         </Tab>
-        <Tab onClick={() => setLinkTable("SOS_LINKS")}>SOS</Tab>
-        <Tab onClick={() => setLinkTable("OTHER_IMPORTANT_LINKS")}>
-          other links
+        <Tab onClick={() => setLinkTable("SOS_LINKS")} className="tab">SOS</Tab>
+        <Tab onClick={() => setLinkTable("OTHER_IMPORTANT_LINKS")} className="tab">
+          Other Links
         </Tab>
       </TabBar>
       <div>
