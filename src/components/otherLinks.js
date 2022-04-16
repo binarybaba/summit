@@ -7,7 +7,7 @@ import {
 } from "@rmwc/data-table";
 import { Button } from "@rmwc/button";
 
-const linkTable = [
+export const linkTable = [
   [
     { name: "Wayback Machine", link: "https://archive.org/web/" },
     { name: "IP India", link: "https://ipindiaonline.gov.in/tmrpublicsearch/frmmain.aspx" },
