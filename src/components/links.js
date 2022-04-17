@@ -16,9 +16,7 @@ export const Links = () => {
           Important Links
         </Tab>
         <Tab onClick={() => setLinkTable("SOS_LINKS")} className="tab">SOS</Tab>
-        <Tab onClick={() => setLinkTable("OTHER_IMPORTANT_LINKS")} className="tab">
-          Other Links
-        </Tab>
+        
       </TabBar>
       <div>
         {linkTable === 'IMPORTANT_LINKS' && <ImportantLinks />}
