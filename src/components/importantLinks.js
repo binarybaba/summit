@@ -57,7 +57,7 @@ export const linkTable = [
     { name: "Scam Advisor", link: "https://www.scamadviser.com/" },
     { name: "Allsec", link: "https://www.allsechro.com/AmazonSSO" },
     { name: "Amazon Translate", link: "https://azt.internal.translate.aws.dev/" },
-    { name: "SUMMIT Anonymous Feedback", link: "https://survey.fieldsense.whs.amazon.dev/survey/195143d4-b528-4ae3-af06-12f82f8a3ab2" },
+    { name: "Anonymous Feedback", link: "https://survey.fieldsense.whs.amazon.dev/survey/195143d4-b528-4ae3-af06-12f82f8a3ab2" },
   ],
   [
     { name: "Guidestar", link: "https://www.guidestar.org/" },
@@ -65,7 +65,7 @@ export const linkTable = [
     { name: "Spokeo", link: "https://www.spokeo.com/" },
     { name: "IP Tracker", link: "https://www.ip-tracker.org/" },
     { name: "What is my IP", link: "https://whatismyipaddress.com/ip-lookup" },
-    { name: "Politically Exposed Person", link: "https://www.cm1.se/en/pep-sanktionssokning/" },
+    { name: "PEP", link: "https://www.cm1.se/en/pep-sanktionssokning/" },
   ],
   [
     { name: "EUIPO", link: "https://trademarks.ipo.gov.uk/ipo-tmcase" },
@@ -78,10 +78,8 @@ export const linkTable = [
   [
     { name: "WhoIs", link: "https://www.whois.com/whois/" },
     { name: "Ekata", link: "https://app.ekata.com/sign_in" },
-    { name: "XXXXXXXXX", link: "https://csi.amazon.com/view" },
-    { name: "XXXXXXXXX", link: "https://ipindiaonline.gov.in/tmrpublicsearch/frmmain.aspx" },
-    { name: "XXXXXXXXX", link: "https://www.alexa.com/siteinfo" },
-    { name: "XXXXXXXXX", link: "https://w.amazon.com/bin/view/Main/" },
+    { name: "Knowledge Center", link: "https://cscentral.amazon.com/gp/stores/www.amazon.com/gp/knowledge/blurb/detail/141-9091568-3997544" },
+    
   ],
 ];
 
