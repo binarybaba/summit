@@ -102,7 +102,7 @@ export const ImportantLinks = () => {
   }, [searchKeyword])
 
   return (
-    <DataTable style={{ width: 'calc(98vw - 40px)' }}>
+    <DataTable style={{ width: 'calc(99vw - 40px)' }}>
       <DataTableContent>
         <input type="text" placeholder="Type to search..." value={searchKeyword} onChange={(e) => setSearchKeyword(e.currentTarget.value || '')}/>
         {isSearching ? (
