@@ -16,7 +16,7 @@ export const linkTable = [
     { name: "Nautilus NA", link: "https://nautilus-na.amazon-corp.com/" },
     { name: "GC Explorer NA", link: "https://gchelper-na.amazon.com/gcexplorer/" },
     { name: "Camshaft NA", link: "https://camweb-na.amazon.com/" },
-    { name: "SUMMIT Sharepoint", link: "https://share.amazon.com/sites/BADSUMMIT/_layouts/15/start.aspx#/" },
+    { name: "XXXXXXXXX", link: "https://share.amazon.com/sites/BADSUMMIT/_layouts/15/start.aspx#/" },
     { name: "SUMMIT Anonymous Feedback", link: "https://survey.fieldsense.whs.amazon.dev/survey/195143d4-b528-4ae3-af06-12f82f8a3ab2" },
   ],
   [
@@ -25,14 +25,14 @@ export const linkTable = [
     { name: "GC Explorer EU", link: "https://gchelper-eu.amazon.com/gcexplorer/" },
     { name: "Camshaft EU", link: "https://camweb-eu.amazon.com/" },
     { name: "SUMMIT Watson", link: "https://share.amazon.com/sites/amazonwatson/SUMMIT/SOPs/SUMMIT_Watson_Homepage.aspx" },
-    { name: "SUMMIT #Hashtag Glossary", link: "https://share.amazon.com/sites/BADSUMMIT/_layouts/15/WopiFrame.aspx?sourcedoc={0EF72D72-345B-4790-A050-228F4EB58590}&file=Hashtag_GlossaryDoc.docx&action=default" },
+    { name: "XXXXXXXXXXX", link: "https://share.amazon.com/sites/BADSUMMIT/_layouts/15/WopiFrame.aspx?sourcedoc={0EF72D72-345B-4790-A050-228F4EB58590}&file=Hashtag_GlossaryDoc.docx&action=default" },
    ],
    [
     { name: "Paragon JP", link: "https://paragon-fe.amazon.com/hz/search" },
     { name: "Nautilus JP", link: "https://nautilus-fe.amazon-corp.com/" },
     { name: "GC Explorer JP", link: "https://gchelper-fe.amazon.com/gcexplorer/" },
     { name: "Camshaft FE", link: "https://camweb-jp.amazon.com/" },
-    { name: "SUMMIT Quip", link: "https://quip-amazon.com/6QokOYnHPXPP/Team-SUMMIT-Investigative" },
+    { name: "XXXXXXXXXXX", link: "https://quip-amazon.com/6QokOYnHPXPP/Team-SUMMIT-Investigative" },
     { name: "Wallet Viewer NA", link: "https://wallet-viewer-na.amazon.com/" },
    ],
    [
@@ -52,12 +52,6 @@ export const linkTable = [
     { name: "Cradle", link: "https://datacentral.a2z.com/cradle?mons_redirect=sign_in&mons_redirect=sign_in#/SellerFinancialDisincentive/home?runPeriod=WEEK&status=All" },
   ],
   [
-    { name: "AML Insight", link: "https://amlinsight.lexisnexis.com/" },
-    { name: "Ajuda", link: "https://ajuda.a2z.com/view.html?stage=Live&repo=GAEGB78MKKYZXAQ8&hierarchy=GBSV4XKBAUMNZ257&hierLayer=Global&hierLocale=en-US&marketplace=US&locale=en-US&node=G9T4C85L3T3VVSMS" },
-    { name: "Test Buy", link: "https://share.amazon.com/sites/BADSUMMIT/_layouts/15/WopiFrame2.aspx?sourcedoc=%7b7802A4B7-3C07-44F6-BAB1-1F5752260497%7d&file=SUMMIT%20Test%20Buy%20-%20Council%20Reviewed_CM_Final.docx&action=default" },
-    { name: "BA SIM (Sangeetha)", link: "https://sim.amazon.com/issues/create?template=b26f32fb-b25c-46ae-949a-d96d02628375" },
-    { name: "Suggestions?", link: "https://survey.fieldsense.whs.amazon.dev/survey/preview/8bac67c5-1f06-4a05-a1cf-c92e69290e1d" },
-  ],[
     { name: "Ramp Console", link: "https://rampconsole-iad.iad.proxy.amazon.com/navigation/multipurposeSearch?requestId=3b350af2-a1d8-4d29-9997-f26517ee6939" },
     { name: "Pipl", link: "https://pipl.com/search/" },
     { name: "Scam Advisor", link: "https://www.scamadviser.com/" },
