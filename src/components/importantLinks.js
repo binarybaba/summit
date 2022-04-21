@@ -47,7 +47,7 @@ export const linkTable = [
     { name: "AML Insight", link: "https://amlinsight.lexisnexis.com/" },
     { name: "Ajuda", link: "https://ajuda.a2z.com/view.html?stage=Live&repo=GAEGB78MKKYZXAQ8&hierarchy=GBSV4XKBAUMNZ257&hierLayer=Global&hierLocale=en-US&marketplace=US&locale=en-US&node=G9T4C85L3T3VVSMS" },
     { name: "Test Buy", link: "https://share.amazon.com/sites/BADSUMMIT/_layouts/15/WopiFrame2.aspx?sourcedoc=%7b7802A4B7-3C07-44F6-BAB1-1F5752260497%7d&file=SUMMIT%20Test%20Buy%20-%20Council%20Reviewed_CM_Final.docx&action=default" },
-    { name: "BA SIM (Sangeetha)", link: "https://sim.amazon.com/issues/create?template=b26f32fb-b25c-46ae-949a-d96d02628375" },
+    { name: "XXXXXXXXX", link: "https://sim.amazon.com/issues/create?template=b26f32fb-b25c-46ae-949a-d96d02628375" },
     { name: "Hubble", link: "https://hubble.amazon.com/" },
     { name: "Cradle", link: "https://datacentral.a2z.com/cradle?mons_redirect=sign_in&mons_redirect=sign_in#/SellerFinancialDisincentive/home?runPeriod=WEEK&status=All" },
   ],
@@ -75,12 +75,15 @@ export const linkTable = [
     { name: "Alexa Search", link: "https://www.alexa.com/siteinfo" },
     { name: "Amazon Wiki", link: "https://w.amazon.com/bin/view/Main/" },
   ],
+  [
+    { name: "WhoIs", link: "https://www.whois.com/whois/" },
+    { name: "Ekata", link: "https://app.ekata.com/sign_in" },
+    { name: "CSI", link: "https://csi.amazon.com/view" },
+    { name: "XXXXXXXXX", link: "https://ipindiaonline.gov.in/tmrpublicsearch/frmmain.aspx" },
+    { name: "XXXXXXXXX", link: "https://www.alexa.com/siteinfo" },
+    { name: "XXXXXXXXX", link: "https://w.amazon.com/bin/view/Main/" },
+  ],
 ];
-
-
-
-
-
 
 export const ImportantLinks = () => {
 
@@ -99,7 +102,7 @@ export const ImportantLinks = () => {
   }, [searchKeyword])
 
   return (
-    <DataTable style={{ width: 'calc(100vw - 40px)' }}>
+    <DataTable style={{ width: 'calc(98vw - 40px)' }}>
       <DataTableContent>
         <input type="text" placeholder="Type to search..." value={searchKeyword} onChange={(e) => setSearchKeyword(e.currentTarget.value || '')}/>
         {isSearching ? (
