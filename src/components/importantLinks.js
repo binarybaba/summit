@@ -16,8 +16,8 @@ export const linkTable = [
     { name: "Nautilus NA", link: "https://nautilus-na.amazon-corp.com/" },
     { name: "GC Explorer NA", link: "https://gchelper-na.amazon.com/gcexplorer/" },
     { name: "Camshaft NA", link: "https://camweb-na.amazon.com/" },
-    { name: "XXXXXXXXX", link: "https://share.amazon.com/sites/BADSUMMIT/_layouts/15/start.aspx#/" },
-    { name: "SUMMIT Anonymous Feedback", link: "https://survey.fieldsense.whs.amazon.dev/survey/195143d4-b528-4ae3-af06-12f82f8a3ab2" },
+    { name: "CamelCamel", link: "https://camelcamelcamel.com/" },
+    { name: "Suggestions?", link: "https://survey.fieldsense.whs.amazon.dev/survey/preview/8bac67c5-1f06-4a05-a1cf-c92e69290e1d" },
   ],
   [
     { name: "Paragon EU", link: "https://paragon-eu.amazon.com/hz/search" },
@@ -25,14 +25,14 @@ export const linkTable = [
     { name: "GC Explorer EU", link: "https://gchelper-eu.amazon.com/gcexplorer/" },
     { name: "Camshaft EU", link: "https://camweb-eu.amazon.com/" },
     { name: "SUMMIT Watson", link: "https://share.amazon.com/sites/amazonwatson/SUMMIT/SOPs/SUMMIT_Watson_Homepage.aspx" },
-    { name: "XXXXXXXXXXX", link: "https://share.amazon.com/sites/BADSUMMIT/_layouts/15/WopiFrame.aspx?sourcedoc={0EF72D72-345B-4790-A050-228F4EB58590}&file=Hashtag_GlossaryDoc.docx&action=default" },
+    { name: "Spider Script", link: "https://w.amazon.com/bin/view/SPIDER-_BRI_(Buyer_Risk_Investigations)" },
    ],
    [
     { name: "Paragon JP", link: "https://paragon-fe.amazon.com/hz/search" },
     { name: "Nautilus JP", link: "https://nautilus-fe.amazon-corp.com/" },
     { name: "GC Explorer JP", link: "https://gchelper-fe.amazon.com/gcexplorer/" },
     { name: "Camshaft FE", link: "https://camweb-jp.amazon.com/" },
-    { name: "XXXXXXXXXXX", link: "https://quip-amazon.com/6QokOYnHPXPP/Team-SUMMIT-Investigative" },
+    { name: "Global Transfer Guide", link: "https://share.amazon.com/sites/amazonwatson/Multiple_Verticals/SOPs/Global_Transfer_Guide.aspx" },
     { name: "Wallet Viewer NA", link: "https://wallet-viewer-na.amazon.com/" },
    ],
    [
@@ -56,7 +56,24 @@ export const linkTable = [
     { name: "Pipl", link: "https://pipl.com/search/" },
     { name: "Scam Advisor", link: "https://www.scamadviser.com/" },
     { name: "Allsec", link: "https://www.allsechro.com/AmazonSSO" },
-    { name: "Suggestions?", link: "https://survey.fieldsense.whs.amazon.dev/survey/preview/8bac67c5-1f06-4a05-a1cf-c92e69290e1d" },
+    { name: "Amazon Translate", link: "https://azt.internal.translate.aws.dev/" },
+    { name: "SUMMIT Anonymous Feedback", link: "https://survey.fieldsense.whs.amazon.dev/survey/195143d4-b528-4ae3-af06-12f82f8a3ab2" },
+  ],
+  [
+    { name: "Guidestar", link: "https://www.guidestar.org/" },
+    { name: "Wayback Machine", link: "https://archive.org/web/" },
+    { name: "Spokeo", link: "https://www.spokeo.com/" },
+    { name: "IP Tracker", link: "https://www.ip-tracker.org/" },
+    { name: "What is my IP", link: "https://whatismyipaddress.com/ip-lookup" },
+    { name: "Politically Exposed Person", link: "https://www.cm1.se/en/pep-sanktionssokning/" },
+  ],
+  [
+    { name: "EUIPO", link: "https://trademarks.ipo.gov.uk/ipo-tmcase" },
+    { name: "WIPO", link: "https://branddb.wipo.int/branddb/en/" },
+    { name: "USPTO", link: "https://tmsearch.uspto.gov/bin/gate.exe?f=login&p_lang=english&p_d=trmk" },
+    { name: "IP India", link: "https://ipindiaonline.gov.in/tmrpublicsearch/frmmain.aspx" },
+    { name: "Alexa Search", link: "https://www.alexa.com/siteinfo" },
+    { name: "Amazon Wiki", link: "https://w.amazon.com/bin/view/Main/" },
   ],
 ];
 
