@@ -51,12 +51,22 @@ export const generateLoadLink = (org, buyerId, idArray) => {
     } else if (org === "JP") {
       pageContext.marketplaceId = "6";
     }
+    if(pageId === 'summit-search-by-customer-id-page') {
+      pageContext.program = 'SUMMIT'
+      pageContext.searchScopeId = 'summit-search-by-customer-id'
+    } else if(pageId === 'b2b-search-by-customer-id-with-outcomes'){
+      pageContext.program = 'AbusePrevention',
+      pageContext.searchScopeId = 'b2b-search-by-customer-id-with-outcomes'
+    } else if(pageId === 'concessions-search-by-customer-id-read-only') {
+      pageContext.program = 'AbusePrevention',
+      pageContext.searchScopeId = 'concessions-search-by-customer-id-read-only'
+    }
     return pageContext;
   };
 
   return idArray.map(
     (id) =>
-      `https://paragon-${org}.amazon.com/hz/dvr-search/detail?pageContext=${encodeURIComponent(
+      `https://paragon-${org === 'JP' ? 'fe' : org}.amazon.com/hz/dvr-search/detail?pageContext=${encodeURIComponent(
         JSON.stringify(makePageContext(buyerId, id))
       )}&searchScopeId=summit-search-by-customer-id`
   );
